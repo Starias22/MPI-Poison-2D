@@ -19,7 +19,6 @@ This project is part of my Master's in Data Engineering (S2), specifically for t
 - [Usage](#usage)  
 - [Results Visualization](#results-visualization)  
 - [Contributing](#contributing)  
-- [License](#license)  
 - [Contact Information](#contact-information)  
 
 
