@@ -8,19 +8,20 @@ This project is part of my Master's in Data Engineering (S2), specifically for t
 
 - [Solution Overview](#solution-overview)
 - [Mathematical Formulation](#mathematical-formulation)
-- [Architecture](#architecture)
-  - [MPI Cartesian Grid](#mpi-cartesian-grid)
-  - [Communication Pattern](#communication-pattern)
-- [Installation and Configurations](#installation-and-configurations)
-  - [Prerequisites](#prerequisites)
-  - [Clone the Repository](#clone-the-repository)
-  - [Build and Run the MPI Program](#build-and-run-the-mpi-program)
-  - [Example Execution](#example-execution)
-- [Usage](#usage)
-- [Results Visualization](#results-visualization)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact Information](#contact-information)
+- [Architecture](#architecture)  
+  - [MPI Cartesian Grid](#mpi-cartesian-grid)  
+  - [Communication Pattern](#communication-pattern)  
+- [Installation and Configuration](#installation-and-configuration)  
+  - [Prerequisites](#prerequisites)  
+  - [Clone the Repository](#clone-the-repository)  
+  - [Set Up a Virtual Environment and Install Dependencies](#set-up-a-virtual-environment-and-install-dependencies)  
+  - [Example Execution](#example-execution)  
+- [Usage](#usage)  
+- [Results Visualization](#results-visualization)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact Information](#contact-information)  
+
 
 ## Solution Overview
 
