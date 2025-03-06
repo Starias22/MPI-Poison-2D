@@ -26,7 +26,7 @@ This project is part of my Master's in Data Engineering (S2), specifically for t
 
 The project implements a **parallel solver** for the **2D Poisson equation** on a discretized grid using the **Finite Difference Method (FDM)**. The domain is decomposed into subdomains, which are distributed across multiple MPI processes using a **Cartesian topology** to efficiently handle inter-process communication.
 
-Here is the plot after executing the code for 30 interior points along each x and y.
+Here is the plot after executing the code for 30 interior points along x and y.
 
 ![MPI Cartesian Grid](./solution_plot.png)
 
@@ -35,11 +35,8 @@ Here is the plot after executing the code for 30 interior points along each x an
 
 The 2D Poisson equation is given by:
 
-\(\nabla^2 u = f(x, y)\)
+![alt text](formula.png)
 
-where \(u(x, y)\) is the function to solve for, and \(f(x, y)\) is a known source term. The discretized version using the finite difference method is:
-
-\(\frac{u_{i+1,j} - 2u_{i,j} + u_{i-1,j}}{\Delta x^2} + \frac{u_{i,j+1} - 2u_{i,j} + u_{i,j-1}}{\Delta y^2} = f_{i,j}\)
 
 This results in a system of linear equations solved iteratively using **Jacobi, Gauss-Seidel, or Successive Over-Relaxation (SOR) methods**.
 
