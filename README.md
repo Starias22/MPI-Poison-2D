@@ -115,5 +115,5 @@ For questions or issues, please contact:
 - **Name**: G. Ezéchiel ADEDE
 - **Email**: [adedeezechiel@gmail.com](mailto\:adedeezechiel@gmail.com)
 - **GitHub**: [Starias22](https://github.com/Starias22)
-- **LinkedIn**: [Gbètoho Ezéchiel ADEDE](https://www.linkedin.com/in/Starias22)
+- **LinkedIn**: [G. Ezéchiel ADEDE](https://www.linkedin.com/in/Starias22)
 
