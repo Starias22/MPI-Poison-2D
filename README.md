@@ -55,9 +55,11 @@ MPI processes are arranged in a **2D Cartesian grid**, where each process is res
 
 ### Prerequisites
 
-- **Linux** or **WSL (Windows Subsystem for Linux)**
+- **Linux**
 - **MPI Implementation** (OpenMPI or MPICH)
-- **Python (optional for visualization)**
+- **Python**
+- **venv(Viratual Environment)**
+- **Pip**
 
 ### Clone the Repository
 
@@ -66,26 +68,20 @@ git clone https://github.com/Starias22/MPI-Poisson-2D.git
 cd MPI-Poisson-2D
 ```
 
-### Build and Run the MPI Program
-
-Compile the MPI program using:
+### Set up a virtual environemnt and Install Pip dependences
 
 ```sh
-mpicc -o poisson_solver poisson.c -lm
-```
-
-Run the solver on multiple processes:
-
-```sh
-mpirun -np 4 ./poisson_solver
+python3 -m venv project_env
+source project_env/bin/activate
+pip install requirements.txt
 ```
 
 ### Example Execution
 
-Example with a **16x16 grid** using **4 MPI processes**:
+Example using **8 MPI processes**:
 
 ```sh
-mpirun -np 4 ./poisson_solver 16 16
+!mpiexec -n 8 python3 poisson.py 
 ```
 
 ## Usage
